@@ -1,7 +1,7 @@
-function results = nanofiber_fold_detection(inputImagePath, varargin)
-%NANOFIBER_FOLD_DETECTION Detect fold-like boundary features in microscopy images.
+function results = fiber_fold_detection(inputImagePath, varargin)
+%FIBER_FOLD_DETECTION Detect fold-like boundary features in microscopy images.
 %
-%   RESULTS = NANOFIBER_FOLD_DETECTION(INPUTIMAGEPATH) reads the image at
+%   RESULTS = FIBER_FOLD_DETECTION(INPUTIMAGEPATH) reads the image at
 %   INPUTIMAGEPATH and detects fold-like points on connected edge boundaries.
 %
 %   Optional name-value parameters:

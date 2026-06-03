@@ -1,6 +1,6 @@
-# Nanofiber Fold Detection
+# Fiber Fold Detection
 
-MATLAB code for detecting fold-like boundary features in nanofiber microscopy images.
+MATLAB code for detecting fold-like boundary features in fiber microscopy images.
 
 The script reads an input image, enhances contrast, detects edges, traces connected
 boundaries, and marks candidate fold points using curvature and angle-change criteria.
@@ -10,7 +10,7 @@ image path at runtime.
 ## Usage
 
 ```matlab
-results = nanofiber_fold_detection("path/to/input_image.tif");
+results = fiber_fold_detection("path/to/input_image.tif");
 ```
 
 The returned `results` structure includes the number of connected regions, total fold
